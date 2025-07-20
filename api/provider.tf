@@ -8,8 +8,8 @@ provider "aws" {
   skip_requesting_account_id  = true
   s3_use_path_style           = true
   endpoints {
-    dynamodb = "http://host.docker.internal:4566"
-    s3       = "http://host.docker.internal:4566"
+    dynamodb = "http://localstack:4566"
+    s3       = "http://localstack:4566"
   }
 }
 

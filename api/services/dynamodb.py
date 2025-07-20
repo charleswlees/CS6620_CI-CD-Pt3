@@ -6,7 +6,7 @@ dynamo = boto3.resource(
     aws_access_key_id="test",
     aws_secret_access_key="test",
     #endpoint_url="http://localhost:4566",
-    endpoint_url="http://host.docker.internal:4566"
+    endpoint_url="http://localstack:4566"
 )
 
 table = dynamo.Table('ci-cd-pt3-table')

@@ -1,7 +1,7 @@
 import pytest, requests
 
 #URL = "http://localhost:8080/recipes"
-URL = "http://localstack:8080/recipes"
+URL = "http://api:8080/recipes"
 #URL="http://host.docker.internal:8080/recipes"
 
 recipe = {

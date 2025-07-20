@@ -1,4 +1,4 @@
-### Overview
+## Overview
 
 In the last assignment, you created a REST API with endpoints for GET, POST, PUT, and DELETE verbs, and tests for each endpoint. Make sure the POST and PUT endpoints accept JSON. Add functionality to create, read, update, and destroy items in a DynamoDB table and an S3 bucket. Use Localstack to run a mock of AWS as part of your application stack. Create two compose files and corresponding shell scripts: one will run the stack until manually stopped, the other will run the tests and exit with a zero status if the tests pass and a non-zero status if the tests fail. Put all relevant files into a repository, and enable automatic and manual runs of the tests using a workflow. Include a README along with instructions for running the stack and tests, and share it with the TA.
 
@@ -15,7 +15,7 @@ Tests should cover at least these cases:
 - Sending a DELETE request with no valid target returns the appropriate response
 
 
-### Submission
+## Submission
 >In the last assignment, you created a REST API with endpoints for GET, POST, PUT, and DELETE verbs, and tests for each endpoint. Make sure the POST and PUT endpoints accept JSON. Add functionality to create, read, update, and destroy items in a DynamoDB table and an S3 bucket.
 
 I have created a new API from scratch to use DynamoDB and S3. This API supports all listed tests in the assignment description. Each endpoint verifies that the s3 and Dynamo table are matching.
@@ -40,7 +40,7 @@ This is the README :), this repo is public so there should be no access issues.
 
 
 
-### Running my Submission
+## Running my Submission
 If you'd like to run my submission to tinker with the api locally please use the `start.sh` script in the root directory.
 
 You can also run the tests manually through Github Workflows or through the `test.sh`.

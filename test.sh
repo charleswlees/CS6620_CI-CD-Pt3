@@ -1,3 +1,5 @@
 #!/bin/bash
 
-docker compose --profile test up --abort-on-container-exit
+docker compose --profile test up -d
+docker compose logs -f test
+docker compose down

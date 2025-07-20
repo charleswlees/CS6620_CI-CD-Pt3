@@ -19,7 +19,7 @@ services:
       context: .
       dockerfile: Dockerfile
     entrypoint: ["sh", "-c"]
-    command: ["terraform init && terraform apply -auto-approve && tail -f /dev/null"]
+    command: ["terraform init && terraform apply -auto-approve"]
     depends_on: 
       localstack:
         condition: service_healthy

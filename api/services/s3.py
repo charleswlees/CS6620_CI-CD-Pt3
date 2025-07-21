@@ -1,3 +1,8 @@
+# Charlie Lees
+# CS 6620
+# Uses BOTO3 to interface with s3
+
+
 import boto3
 import json
 

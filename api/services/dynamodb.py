@@ -1,3 +1,8 @@
+# Charlie Lees
+# CS 6620
+# Uses BOTO3 to interface with dynamodb
+
+
 import boto3
 
 dynamo = boto3.resource(
@@ -10,9 +15,6 @@ dynamo = boto3.resource(
 )
 
 table = dynamo.Table('ci-cd-pt3-table')
-
-#response = dynamo.list_tables()
-#print(response)
 
 # Healthcheck
 

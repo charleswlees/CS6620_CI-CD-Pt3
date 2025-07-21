@@ -1,3 +1,7 @@
+# Charlie Lees
+# CS 6620
+# Test file using pytest for all listed tests on the Canvas assignment listing
+
 import pytest, requests
 
 #URL = "http://localhost:8080/recipes"

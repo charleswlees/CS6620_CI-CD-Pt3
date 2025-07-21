@@ -1,7 +1,7 @@
 # Charlie Lees
 # CS 6620
 # Basic API supporting all basic operations (GET, PUT, POST, and DELETE) on the 
-# recipe endpoint
+# recipes endpoint
 
 
 from flask import Flask, request

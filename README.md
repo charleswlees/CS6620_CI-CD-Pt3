@@ -44,3 +44,18 @@ This is the README :), this repo is public so there should be no access issues.
 If you'd like to run my submission to tinker with the api locally please use the `start.sh` script in the root directory.
 
 You can also run the tests manually through Github Workflows or through the `test.sh`.
+
+# External Resources used
+
+For the most part the external resources used were the documentation for the various tools. Otherwise I referenced forum posts which I have also cited in the comments of the code. 
+Please see these sources below: 
+
+
+* boto3 (https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+* Flask (https://flask.palletsprojects.com/en/stable/)
+* Healthchecks for docker-compose (https://github.com/localstack/localstack/issues/1095)
+* Pytest (https://docs.pytest.org/en/stable/contents.html)
+* Docker Compose (https://docs.docker.com/compose/)
+* Using localstack with Terraform (https://docs.localstack.cloud/aws/integrations/infrastructure-as-code/terraform/)
+ 
+
